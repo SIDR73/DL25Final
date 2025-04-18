@@ -1,3 +1,4 @@
 In this project we aim to create a diffusion model to create segmentation mask for brain tumors from MRI data
-Use pretrained diffusion model (MedSegDiff) to take in preprocessed data from Brats toolkit and create segmentation mask with uncertainty. 
+Use pretrained diffusion model (MedSegDiff https://www.kaggle.com/code/sarlren/medsegdiff) to take in preprocessed 
+data from Brats toolkit (https://github.com/neuronflow/BraTS-Toolkit) and create segmentation mask with uncertainty. 
 We then train MedSegDiff, testing different normalization functions and error functions to maximize accuracy.
