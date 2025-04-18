@@ -1,0 +1,15 @@
+aleatoric vs epistemic diffusion model
+What diffusion model do we use?:
+What inputs does the diffusion model expect? What was the diffusion models original dataset?:
+What input size does the diffusion model take? Do we need to resize the input tensor?:
+What methods or normalization could we use? What are the methods that we have tried?:
+What are the error functions we can use? What are the error functions we have tried?:
+L1,L2,cross-entropy
+What is an acceptible train speed? What variables can we change to to speed things up (lower resolution, use less datapoints ...)?:
+
+For uncertainty boundries:
+How are we going to measure error? How are we going to measure accuracy?
+
+For data:
+How do we find the different segmentation masks? What do they corespond to physically?:
+Each patient has 5 multilayered NII files, what does each of these files stand for, and what is the meaning of each layer?
